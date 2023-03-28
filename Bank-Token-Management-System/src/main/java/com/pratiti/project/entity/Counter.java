@@ -15,8 +15,6 @@ public class Counter  {
 
 	private String counterName;
 
-
-
 	@OneToOne(mappedBy="counter",cascade = CascadeType.ALL)
 	private CounterExecutive counterExecutive;
 	
